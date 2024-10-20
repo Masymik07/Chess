@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Szachy</title>
+    <link rel="stylesheet" href="cssStrona.css">
+    <link rel="stylesheet" href="cssPlansza.css"> 
+    <!--<script src="https://kit.fontawesome.com/43d90713db.js" crossorigin="anonymous"></script>-->
+    
+</head>
+<body>
+
+    <div class="k1">
+       <p1 class="koniec">Koniec czasu <br> <a href="index.html"> <i class="fa-solid fa-arrows-rotate" style="color: #c9b999;"></i> </a> </p1>
+    </div>
+    <div class="k2">
+        <div class="k7">
+            <div class="a">A</div>
+            <div class="b">B</div>
+            <div class="c">C</div>
+            <div class="d">D</div>
+            <div class="e">E</div>
+            <div class="f">F</div>
+            <div class="g">G</div>
+            <div class="h">H</div>
+        </div>
+        <div class="plansza" id="plansza1"></div>
+            <div class="k3">
+                <div class="c1"><div id="minuty1">0</div><div id="minuty2">0</div>:<div id="sekundy1">0</div><div id="sekundy2">0</div></div>
+                <div class="k4">
+                    <select id="select1" class="select1">
+                        <option id="o1" class="o01" value="5">5 minut</option>
+                        <option id="o2" class="o01" value="10">10 minut</option>      
+                        <option id="o3" class="o01" value="15">15 minut</option>
+                    </select>
+                </div> 
+
+                <div class="ostatnieRuchy">
+                    <div class="t2">Ostatnie ruchy</div>
+                </div>
+                <div class="FEN">
+                    
+                </div>
+
+                <div class="start">
+                    <form id="form1">
+                        <div class="fen"><div class="fen1">FEN</div><div class="fen2"> |</div><div class="fen4"><a onclick="skopiujFen()"><i class="fa-solid fa-copy"></i></a></div><div class="skopiowano"><i class="fa-solid fa-check"></i></div></div>
+                        
+                         
+                    </form>
+                </div> 
+
+                <div class="k8">
+                    <div class="a8">8</div>   
+                    <div class="a7">7</div> 
+                    <div class="a6">6</div> 
+                    <div class="a5">5</div> 
+                    <div class="a4">4</div> 
+                    <div class="a3">3</div>
+                    <div class="a2">2</div> 
+                    <div class="a1">1</div>   
+                </div>  
+                                    
+            </div> 
+            <div class="k10">
+                <!--<div class="k9"><button class="przycisk"><i class="fa-solid fa-arrows-rotate" id="siema"></i></button></div>
+                <div class="k9"><button class="przycisk1"><i class="fa-solid fa-arrows-rotate" id="siema"></i></button></div>
+                <div class="k9"><button class="przycisk2"><i class="fa-solid fa-arrows-rotate" id="siema"></i></button></div>  -->
+            </div>
+             
+    </div>
+    
+    <script src="fen.js"></script>
+    <script src="figury.js"></script>
+    <script src="appPlansza.js"></script>
+    <script src="app.js"></script>
+    <script src="czas.js"></script>
+    <script src="walidacja.js"></script>
+</body>
+</html>

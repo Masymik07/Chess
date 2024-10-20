@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    font-family:Poppins;
+    font-weight: 900;
+    /*  nie pozwala zaznaczyc  */ 
+    -webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none;
+	-ms-user-select: none; 
+	user-select: none;
+}
+
+body{
+    background-color: burlywood;
+}
+
+.t1{
+    text-align: center;
+    background-color: burlywood;
+}
+
+.k2{
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 1110px;
+    height: 810px;
+}
+
+.k3{
+    width: 290px;
+    margin-left: 820px;
+    height: 790px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -800px;
+}
+
+.c1{
+    width: 90%;
+    margin-left: 5%;
+    height: 10%;
+    color:bisque;
+    border-radius: 15px;
+    font-size: 47px;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+}
+
+.k4{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 6%;
+}
+
+.o01{
+    color: bisque;
+}
+
+.select1{
+    color: bisque;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    font-size: medium;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+}
+
+.k5{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 6%;
+    
+}
+
+.ostatnieRuchy{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 25%;
+    color: bisque;
+    font-size: medium;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+}
+
+#minuty1 , #minuty2, #sekundy1, #sekundy2{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.start{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 25%;
+    color: bisque;
+    font-size:xx-large;
+}
+
+.start1{
+    color: bisque;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    width: 50%;
+    height: 50px;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+}
+
+.k1{
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: -60px;
+    position: absolute;
+    z-index: 100;
+    height: 100vh;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+    align-items: center;
+}
+
+.koniec{
+    margin-top: -100px;
+    font-size: xx-large;
+    color: rgb(201, 185, 153);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa-arrows-rotate{
+    margin-left: 43%;
+}
+
+.fen{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background: rgb(41,47,41);
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+}
+
+.fen1, .fen2, .fen3, .fen4, .skopiowano{
+    display: inline;
+    font-size: large;
+    margin-top: 12px;
+    margin-left:10px;
+    float: left;
+}
+
+.fen1{
+    color:bisque;
+    margin-left:20px;
+}
+
+.fen4{
+    color:bisque;
+    float: right;
+    margin-right: 20px;
+    z-index: 3;
+}
+
+.t2{
+    padding-top: 10px;
+}
+
+.skopiowano{
+    margin-left: 130px;
+    color:greenyellow;
+}
+
+#siema{
+    margin-right: 50px;
+}
+
+.przycisk,.przycisk1,.przycisk2{
+    background: rgb(41,47,41);
+    padding-right: 25px;
+    background: radial-gradient(circle, rgba(41,47,41,1) 0%, rgba(24,26,24,1) 100%);
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    border: none;
+    color: bisque;
+    font-size: x-large;
+}

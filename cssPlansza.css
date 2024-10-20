@@ -1,0 +1,77 @@
+.kwadrat svg {
+    height: 70px;
+    width: 70px;
+    margin: 15px;
+    position: relative;
+    z-index: -9;
+}
+
+.plansza{
+    width: 800px;
+    height: 800px;
+    margin-left: 20px;
+    text-align: center;
+    background-color:green;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kwadrat{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+.beige{
+    background-color: #cb7629;
+}
+
+.figura{
+    position: relative;
+    z-index: 9;
+}
+
+.brazowy{
+    background-color: #964d22;
+}
+
+.czarny{
+    fill: black;
+}
+
+.bialy{
+    fill: wheat;
+}
+
+.a,.b,.c,.d,.e,.f,.g,.h{
+    margin-top: 3px;
+    display: inline-block;
+    height: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.b,.c,.f,.g{
+    margin-left: -5px;
+}
+
+.d,.e,.h{
+    margin-left: -3px;
+}
+
+.k7{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+    display:flex;
+    position: relative;
+    margin-top: 78px;
+}   
+
+.k8{
+    margin-right: 10px;
+    margin-left: -820px;
+    margin-top:-600px;
+}
